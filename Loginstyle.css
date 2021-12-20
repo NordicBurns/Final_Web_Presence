@@ -1,0 +1,31 @@
+#CountdownTimer {
+    font-weight: bold;
+    font-size: x-large;
+    color: orangered;
+}
+body {
+    background: linear-gradient(115deg, darkviolet, darkcyan);
+    font-weight: bold;
+    font-size: large;
+    color: red;
+}
+#loginTitleStyle {
+    color: orangered;
+}
+
+.blinking {
+
+    animation: opacity 1.5s ease-in-out infinite;
+    opacity: 1;
+}
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
